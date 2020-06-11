@@ -11,11 +11,11 @@ Usage:
 >>> host.call('consensus')
 'syncing'
 
->>> fblockNum = host.call('blockNumber')
+>>> blockNum = host.call('blockNumber')
 >>> fprint(blokNum)
 175783
 
->>> fbalance = host.call('getBalance','YOUR ADDRESS')
+>>> balance = host.call('getBalance','YOUR ADDRESS')
 >>> fprint(balance)
 0
 
