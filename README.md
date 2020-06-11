@@ -10,4 +10,8 @@ from nimiq_rpc_class import *
 
 blockNum = host.call('blockNumber')
 print(blokNum)
+
+balance = host.call('getBalance','YOUR ADDRESS')
+print(balance)
+
 ```
