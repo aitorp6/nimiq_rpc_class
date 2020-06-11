@@ -8,9 +8,13 @@ Usage:
 ```
 >>> from nimiq_rpc_class import *
 
+>>> host.call('consensus')
+'syncing'
+
 >>> fblockNum = host.call('blockNumber')
 >>> fprint(blokNum)
 175783
+
 >>> fbalance = host.call('getBalance','YOUR ADDRESS')
 >>> fprint(balance)
 0
