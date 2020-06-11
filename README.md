@@ -6,12 +6,13 @@ It is based on: https://gist.github.com/Deadlyelder/6a946bd666786a8986b5118802e9
 Usage:
 
 ```
-from nimiq_rpc_class import *
+>>> from nimiq_rpc_class import *
 
-blockNum = host.call('blockNumber')
-print(blokNum)
-
-balance = host.call('getBalance','YOUR ADDRESS')
-print(balance)
+>>> fblockNum = host.call('blockNumber')
+>>> fprint(blokNum)
+175783
+>>> fbalance = host.call('getBalance','YOUR ADDRESS')
+>>> fprint(balance)
+0
 
 ```
