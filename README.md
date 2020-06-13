@@ -12,11 +12,11 @@ Usage:
 'syncing'
 
 >>> blockNum = host.call('blockNumber')
->>> fprint(blokNum)
+>>> print(blokNum)
 175783
 
 >>> balance = host.call('getBalance','YOUR ADDRESS')
->>> fprint(balance)
+>>> print(balance)
 0
 
 ```
